@@ -1,0 +1,148 @@
+/* 전체 폰트 */
+body {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+/* 헤더 영역 */
+header {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+header ul {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+/* 섹션 타이틀 */
+section h2 {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+/* 섹션 본문 */
+section p {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+/* 섹션 목록 */
+section ul li {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+/* 푸터 영역 */
+footer {
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+
+img {
+  max-width: 20%;
+  height: auto;
+}
+
+
+nav {
+  width: 1000px; /* 네비바의 너비를 1000px로 고정 */
+  margin: 0 auto; /* 네비바를 가운데 정렬 */
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: -20%; /* 로고를 왼쪽에 정렬하기 위해 나머지 공간을 모두 차지 */
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  padding: -1000;
+  margin: -19;
+  list-style: none;
+}
+
+
+nav ul li a {
+  display: block;
+  padding: 10px 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+
+
+.logo img {
+  width: 900px; /* 로고의 너비를 100px로 조정 */
+  height: auto; /* 로고의 높이는 자동으로 조정 */
+}
+
+
+body {
+  background-color: #E6F7FF; /* 배경색 */
+  color: #003366; /* 텍스트 색상 */
+}
+
+header {
+  background-color: #004aad; /* 헤더 배경색 */
+  color: #ffffff; /* 헤더 텍스트 색상 */
+}
+
+nav ul li a:hover {
+  color: #ffffff; /* 네비게이션 메뉴 호버 시 텍스트 색상 */
+}
+
+section {
+  background-color: #B4D8E7; /* 섹션 배경색 */
+  color: #003366; /* 섹션 텍스트 색상 */
+}
+
+section h2 {
+  color: #ffffff; /* 섹션 제목 텍스트 색상 */
+}
+
+footer {
+  background-color: #004aad; /* 푸터 배경색 */
+  color: #ffffff; /* 푸터 텍스트 색상 */
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+nav li {
+  padding: 5px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: left;
+}
+
+nav ul li a {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  font-weight: bold;
+}
+
+
+footer {
+  text-align: center;
+}
+
